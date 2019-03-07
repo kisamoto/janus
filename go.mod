@@ -1,0 +1,72 @@
+module github.com/kisamoto/janus
+
+go 1.12
+
+require (
+	code.cloudfoundry.org/bytefmt v0.0.0-20180108190415-b31f603f5e1e
+	git.apache.org/thrift.git v0.0.0-20181106172052-f7d43ce0aa58
+	github.com/DATA-DOG/godog v0.7.6
+	github.com/DataDog/datadog-go v0.0.0-20180330214955-e67964b4021a
+	github.com/Knetic/govaluate v3.0.0+incompatible
+	github.com/afex/hystrix-go v0.0.0-20180406012432-f86abeeb9f72
+	github.com/asaskevich/govalidator v0.0.0-20171111151018-521b25f4b05f
+	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973
+	github.com/bshuster-repo/logrus-logstash-hook v0.4.1
+	github.com/cactus/go-statsd-client v3.1.1+incompatible
+	github.com/davecgh/go-spew v1.1.0
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/felixge/httpsnoop v1.0.0
+	github.com/fiam/gounidecode v0.0.0-20150629112515-8deddbd03fec
+	github.com/fsnotify/fsnotify v1.4.7
+	github.com/globalsign/mgo v0.0.0-20180424091348-efe0945164a7
+	github.com/go-chi/chi v3.3.2+incompatible
+	github.com/go-redis/redis v6.12.0+incompatible
+	github.com/gofrs/uuid v3.2.0+incompatible
+	github.com/golang/protobuf v1.2.0
+	github.com/google/go-github v0.0.0-20180123235826-b1f138353a62
+	github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135
+	github.com/hashicorp/hcl v0.0.0-20171017181929-23c074d0eceb
+	github.com/hellofresh/health-go v1.2.6
+	github.com/hellofresh/janus v0.0.0-20190211131543-6878f1931887
+	github.com/hellofresh/logging-go v0.1.6
+	github.com/hellofresh/stats-go v0.8.0
+	github.com/inconshreveable/mousetrap v1.0.0
+	github.com/kelseyhightower/envconfig v1.3.0
+	github.com/magiconair/properties v1.7.4
+	github.com/matttproud/golang_protobuf_extensions v1.0.1
+	github.com/mitchellh/go-homedir v0.0.0-20161203194507-b8bc1bf76747
+	github.com/mitchellh/mapstructure v0.0.0-20180111000720-b4575eea38cc
+	github.com/pelletier/go-toml v1.1.0
+	github.com/pkg/errors v0.8.0
+	github.com/pmezard/go-difflib v1.0.0
+	github.com/prometheus/client_golang v0.9.1
+	github.com/prometheus/client_model v0.0.0-20180712105110-5c3871d89910
+	github.com/prometheus/common v0.0.0-20181109100915-0b1957f9d949
+	github.com/prometheus/procfs v0.0.0-20181005140218-185b4288413d
+	github.com/rafaeljesus/retry-go v0.0.0-20171214204623-5981a380a879
+	github.com/rcrowley/go-metrics v0.0.0-20180406234716-d932a24a8ccb
+	github.com/rs/cors v1.4.0
+	github.com/sirupsen/logrus v1.0.5
+	github.com/spf13/afero v1.0.2
+	github.com/spf13/cast v1.1.0
+	github.com/spf13/cobra v0.0.0-20180124073143-f91529fc6092
+	github.com/spf13/jwalterweatherman v0.0.0-20180109140146-7c0cea34c8ec
+	github.com/spf13/pflag v1.0.0
+	github.com/spf13/viper v1.0.0
+	github.com/stretchr/testify v1.2.2
+	github.com/tidwall/gjson v1.1.0
+	github.com/tidwall/match v1.0.0
+	github.com/ulule/limiter v2.1.0+incompatible
+	go.opencensus.io v0.18.0
+	golang.org/x/crypto v0.0.0-20180123095555-3d37316aaa6b
+	golang.org/x/net v0.0.0-20180906233101-161cd47e91fd
+	golang.org/x/oauth2 v0.0.0-20180118004544-b28fcf2b08a1
+	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f
+	golang.org/x/sys v0.0.0-20180909124046-d0be0721c37e
+	golang.org/x/text v0.3.0
+	google.golang.org/api v0.0.0-20180910000450-7ca32eb868bf
+	google.golang.org/appengine v1.0.0
+	gopkg.in/alexcesaro/statsd.v2 v2.0.0
+	gopkg.in/gemnasium/logrus-graylog-hook.v2 v2.0.6
+	gopkg.in/yaml.v2 v2.2.1
+)
