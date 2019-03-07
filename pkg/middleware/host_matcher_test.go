@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/test"
+	"github.com/kisamoto/janus/pkg/test"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )

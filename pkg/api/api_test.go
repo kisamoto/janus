@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/api"
+	"github.com/kisamoto/janus/pkg/proxy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

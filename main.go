@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/hellofresh/janus/cmd"
+	"github.com/kisamoto/janus/cmd"
 	log "github.com/sirupsen/logrus"
 )
 

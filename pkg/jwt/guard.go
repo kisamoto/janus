@@ -3,7 +3,7 @@ package jwt
 import (
 	"time"
 
-	"github.com/hellofresh/janus/pkg/config"
+	"github.com/kisamoto/janus/pkg/config"
 )
 
 // Guard struct

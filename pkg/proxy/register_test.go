@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/router"
-	"github.com/hellofresh/janus/pkg/test"
+	"github.com/kisamoto/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/test"
 	"github.com/hellofresh/stats-go/client"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

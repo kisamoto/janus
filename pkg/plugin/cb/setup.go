@@ -8,8 +8,8 @@ import (
 	"github.com/afex/hystrix-go/hystrix/metric_collector"
 	"github.com/afex/hystrix-go/plugins"
 	"github.com/asaskevich/govalidator"
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/plugin"
+	"github.com/kisamoto/janus/pkg/proxy"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

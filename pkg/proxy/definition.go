@@ -8,8 +8,8 @@ import (
 
 	"github.com/asaskevich/govalidator"
 	"github.com/globalsign/mgo/bson"
-	"github.com/hellofresh/janus/pkg/proxy/balancer"
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/proxy/balancer"
+	"github.com/kisamoto/janus/pkg/router"
 )
 
 // Definition defines proxy rules for a route

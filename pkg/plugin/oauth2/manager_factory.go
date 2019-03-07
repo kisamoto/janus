@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hellofresh/janus/pkg/jwt"
+	"github.com/kisamoto/janus/pkg/jwt"
 	log "github.com/sirupsen/logrus"
 )
 

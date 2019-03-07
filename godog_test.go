@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/godog"
-	"github.com/hellofresh/janus/features/bootstrap"
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/config"
+	"github.com/kisamoto/janus/features/bootstrap"
+	"github.com/kisamoto/janus/pkg/api"
+	"github.com/kisamoto/janus/pkg/config"
 	"github.com/stretchr/testify/assert"
 )
 

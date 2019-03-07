@@ -7,8 +7,8 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/google/go-github/github"
-	"github.com/hellofresh/janus/pkg/config"
-	"github.com/hellofresh/janus/pkg/jwt/provider"
+	"github.com/kisamoto/janus/pkg/config"
+	"github.com/kisamoto/janus/pkg/jwt/provider"
 	"github.com/pkg/errors"
 )
 

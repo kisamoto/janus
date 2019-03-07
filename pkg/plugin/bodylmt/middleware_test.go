@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/test"
+	"github.com/kisamoto/janus/pkg/test"
 	"github.com/stretchr/testify/assert"
 )
 

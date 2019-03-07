@@ -6,8 +6,8 @@ import (
 	"time"
 
 	jwtbase "github.com/dgrijalva/jwt-go"
-	"github.com/hellofresh/janus/pkg/jwt"
-	"github.com/hellofresh/janus/pkg/metrics"
+	"github.com/kisamoto/janus/pkg/jwt"
+	"github.com/kisamoto/janus/pkg/metrics"
 	"github.com/hellofresh/stats-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

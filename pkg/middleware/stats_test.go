@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/test"
+	"github.com/kisamoto/janus/pkg/test"
 	"github.com/hellofresh/stats-go"
 	"github.com/hellofresh/stats-go/client"
 	"github.com/stretchr/testify/assert"

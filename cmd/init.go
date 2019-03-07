@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/hellofresh/janus/pkg/config"
-	obs "github.com/hellofresh/janus/pkg/observability"
+	"github.com/kisamoto/janus/pkg/config"
+	obs "github.com/kisamoto/janus/pkg/observability"
 	"github.com/hellofresh/stats-go"
 	"github.com/hellofresh/stats-go/bucket"
 	"github.com/hellofresh/stats-go/client"

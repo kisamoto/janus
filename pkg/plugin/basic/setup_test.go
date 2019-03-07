@@ -5,9 +5,9 @@ import (
 
 	"github.com/globalsign/mgo"
 
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/plugin"
+	"github.com/kisamoto/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/router"
 	"github.com/stretchr/testify/require"
 )
 

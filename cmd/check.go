@@ -3,7 +3,7 @@ package cmd
 import (
 	"context"
 
-	"github.com/hellofresh/janus/pkg/config"
+	"github.com/kisamoto/janus/pkg/config"
 	"github.com/spf13/cobra"
 )
 

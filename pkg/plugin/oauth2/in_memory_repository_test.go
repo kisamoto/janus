@@ -3,7 +3,7 @@ package oauth2
 import (
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/proxy"
 	"github.com/stretchr/testify/assert"
 )
 

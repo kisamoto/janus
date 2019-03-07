@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/render"
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/render"
+	"github.com/kisamoto/janus/pkg/router"
 	"go.opencensus.io/trace"
 )
 

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/hellofresh/janus/pkg/config"
+	"github.com/kisamoto/janus/pkg/config"
 	"github.com/stretchr/testify/assert"
 )
 

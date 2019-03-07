@@ -7,8 +7,8 @@ import (
 	"time"
 
 	basejwt "github.com/dgrijalva/jwt-go"
-	"github.com/hellofresh/janus/pkg/jwt"
-	"github.com/hellofresh/janus/pkg/test"
+	"github.com/kisamoto/janus/pkg/jwt"
+	"github.com/kisamoto/janus/pkg/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

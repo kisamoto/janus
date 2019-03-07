@@ -6,8 +6,8 @@ import (
 
 	"github.com/Knetic/govaluate"
 	"github.com/felixge/httpsnoop"
-	janusErr "github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/metrics"
+	janusErr "github.com/kisamoto/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/metrics"
 	"github.com/pkg/errors"
 	"github.com/rafaeljesus/retry-go"
 	log "github.com/sirupsen/logrus"

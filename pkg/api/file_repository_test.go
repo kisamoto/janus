@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/proxy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -13,9 +13,9 @@ import (
 func newRepo(t *testing.T) *FileSystemRepository {
 	wd, err := os.Getwd()
 	assert.NoError(t, err)
-	assert.Contains(t, wd, "github.com/hellofresh/janus")
+	assert.Contains(t, wd, "github.com/kisamoto/janus")
 
-	// .../github.com/hellofresh/janus/pkg/api/../../assets/apis
+	// .../github.com/kisamoto/janus/pkg/api/../../assets/apis
 	exampleAPIsPath := filepath.Join(wd, "..", "..", "assets", "apis")
 	info, err := os.Stat(exampleAPIsPath)
 	assert.NoError(t, err)

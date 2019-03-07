@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/hellofresh/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )
 

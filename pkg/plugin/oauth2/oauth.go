@@ -4,8 +4,8 @@ import (
 	"sync"
 
 	"github.com/Knetic/govaluate"
-	"github.com/hellofresh/janus/pkg/jwt"
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/jwt"
+	"github.com/kisamoto/janus/pkg/proxy"
 	"github.com/mitchellh/mapstructure"
 	"github.com/pkg/errors"
 )

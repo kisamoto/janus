@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"code.cloudfoundry.org/bytefmt"
-	"github.com/hellofresh/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )
 

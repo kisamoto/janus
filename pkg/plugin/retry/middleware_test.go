@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hellofresh/janus/pkg/test"
+	"github.com/kisamoto/janus/pkg/test"
 	"github.com/stretchr/testify/assert"
 )
 

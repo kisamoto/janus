@@ -3,7 +3,7 @@ package proxy
 import (
 	"time"
 
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/router"
 	"github.com/hellofresh/stats-go/client"
 )
 

@@ -6,9 +6,9 @@ import (
 
 	"github.com/asaskevich/govalidator"
 	"github.com/go-redis/redis"
-	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/plugin"
+	"github.com/kisamoto/janus/pkg/proxy"
 	"github.com/hellofresh/stats-go/client"
 	"github.com/ulule/limiter"
 	"github.com/ulule/limiter/drivers/middleware/stdlib"

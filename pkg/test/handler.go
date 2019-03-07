@@ -3,7 +3,7 @@ package test
 import (
 	"net/http"
 
-	"github.com/hellofresh/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/errors"
 )
 
 // Ping is a test handler

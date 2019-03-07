@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hellofresh/janus/pkg/proxy/balancer"
-	"github.com/hellofresh/janus/pkg/proxy/transport"
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/proxy/balancer"
+	"github.com/kisamoto/janus/pkg/proxy/transport"
+	"github.com/kisamoto/janus/pkg/router"
 	"github.com/hellofresh/stats-go/client"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"

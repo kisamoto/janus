@@ -3,7 +3,7 @@ package basic
 import (
 	"net/http"
 
-	"github.com/hellofresh/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/errors"
 )
 
 var (

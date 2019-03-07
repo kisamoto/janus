@@ -3,7 +3,7 @@ package router_test
 import (
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/router"
 	"github.com/stretchr/testify/assert"
 )
 

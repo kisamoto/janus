@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"github.com/hellofresh/janus/pkg/observability"
-	"github.com/hellofresh/janus/pkg/render"
+	"github.com/kisamoto/janus/pkg/observability"
+	"github.com/kisamoto/janus/pkg/render"
 	baseErrors "github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

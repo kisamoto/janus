@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/DATA-DOG/godog"
-	"github.com/hellofresh/janus/pkg/api"
+	"github.com/kisamoto/janus/pkg/api"
 	"github.com/pkg/errors"
 )
 

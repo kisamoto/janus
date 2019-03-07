@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hellofresh/janus/pkg/middleware"
+	"github.com/kisamoto/janus/pkg/middleware"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

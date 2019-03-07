@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/felixge/httpsnoop"
-	"github.com/hellofresh/janus/pkg/observability"
+	"github.com/kisamoto/janus/pkg/observability"
 	log "github.com/sirupsen/logrus"
 )
 

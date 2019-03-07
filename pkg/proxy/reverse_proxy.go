@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/go-chi/chi"
-	"github.com/hellofresh/janus/pkg/observability"
-	"github.com/hellofresh/janus/pkg/proxy/balancer"
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/observability"
+	"github.com/kisamoto/janus/pkg/proxy/balancer"
+	"github.com/kisamoto/janus/pkg/router"
 	"github.com/hellofresh/stats-go/bucket"
 	"github.com/hellofresh/stats-go/client"
 	"github.com/pkg/errors"

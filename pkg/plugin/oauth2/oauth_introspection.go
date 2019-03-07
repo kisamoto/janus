@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/hellofresh/janus/pkg/proxy"
-	"github.com/hellofresh/janus/pkg/proxy/balancer"
+	"github.com/kisamoto/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/proxy/balancer"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

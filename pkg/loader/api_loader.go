@@ -1,11 +1,11 @@
 package loader
 
 import (
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/middleware"
-	obs "github.com/hellofresh/janus/pkg/observability"
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/api"
+	"github.com/kisamoto/janus/pkg/middleware"
+	obs "github.com/kisamoto/janus/pkg/observability"
+	"github.com/kisamoto/janus/pkg/plugin"
+	"github.com/kisamoto/janus/pkg/proxy"
 	log "github.com/sirupsen/logrus"
 	"go.opencensus.io/tag"
 )

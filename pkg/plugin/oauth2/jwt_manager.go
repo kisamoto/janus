@@ -4,9 +4,9 @@ import (
 	"context"
 
 	jwtBase "github.com/dgrijalva/jwt-go"
-	"github.com/hellofresh/janus/pkg/jwt"
-	"github.com/hellofresh/janus/pkg/metrics"
-	obs "github.com/hellofresh/janus/pkg/observability"
+	"github.com/kisamoto/janus/pkg/jwt"
+	"github.com/kisamoto/janus/pkg/metrics"
+	obs "github.com/kisamoto/janus/pkg/observability"
 	"github.com/hellofresh/stats-go/bucket"
 	"github.com/hellofresh/stats-go/client"
 	log "github.com/sirupsen/logrus"

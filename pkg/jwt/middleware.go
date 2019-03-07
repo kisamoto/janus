@@ -3,7 +3,7 @@ package jwt
 import (
 	"net/http"
 
-	"github.com/hellofresh/janus/pkg/render"
+	"github.com/kisamoto/janus/pkg/render"
 	log "github.com/sirupsen/logrus"
 )
 

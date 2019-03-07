@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/hellofresh/janus/pkg/api"
+	"github.com/kisamoto/janus/pkg/api"
 	"github.com/stretchr/testify/assert"
 )
 

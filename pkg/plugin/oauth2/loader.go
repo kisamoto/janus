@@ -1,8 +1,8 @@
 package oauth2
 
 import (
-	"github.com/hellofresh/janus/pkg/proxy"
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/router"
 	"github.com/rs/cors"
 	log "github.com/sirupsen/logrus"
 	"github.com/ulule/limiter"

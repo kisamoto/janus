@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gofrs/uuid"
-	"github.com/hellofresh/janus/pkg/observability"
+	"github.com/kisamoto/janus/pkg/observability"
 )
 
 type reqIDKeyType int

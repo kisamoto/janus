@@ -3,27 +3,27 @@ package cmd
 import (
 	"context"
 
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/server"
+	"github.com/kisamoto/janus/pkg/api"
+	"github.com/kisamoto/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/server"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
 	// this is needed to call the init function on each plugin
-	_ "github.com/hellofresh/janus/pkg/plugin/basic"
-	_ "github.com/hellofresh/janus/pkg/plugin/bodylmt"
-	_ "github.com/hellofresh/janus/pkg/plugin/cb"
-	_ "github.com/hellofresh/janus/pkg/plugin/compression"
-	_ "github.com/hellofresh/janus/pkg/plugin/cors"
-	_ "github.com/hellofresh/janus/pkg/plugin/oauth2"
-	_ "github.com/hellofresh/janus/pkg/plugin/rate"
-	_ "github.com/hellofresh/janus/pkg/plugin/requesttransformer"
-	_ "github.com/hellofresh/janus/pkg/plugin/responsetransformer"
-	_ "github.com/hellofresh/janus/pkg/plugin/retry"
+	_ "github.com/kisamoto/janus/pkg/plugin/basic"
+	_ "github.com/kisamoto/janus/pkg/plugin/bodylmt"
+	_ "github.com/kisamoto/janus/pkg/plugin/cb"
+	_ "github.com/kisamoto/janus/pkg/plugin/compression"
+	_ "github.com/kisamoto/janus/pkg/plugin/cors"
+	_ "github.com/kisamoto/janus/pkg/plugin/oauth2"
+	_ "github.com/kisamoto/janus/pkg/plugin/rate"
+	_ "github.com/kisamoto/janus/pkg/plugin/requesttransformer"
+	_ "github.com/kisamoto/janus/pkg/plugin/responsetransformer"
+	_ "github.com/kisamoto/janus/pkg/plugin/retry"
 
 	// dynamically registered auth providers
-	_ "github.com/hellofresh/janus/pkg/jwt/basic"
-	_ "github.com/hellofresh/janus/pkg/jwt/github"
+	_ "github.com/kisamoto/janus/pkg/jwt/basic"
+	_ "github.com/kisamoto/janus/pkg/jwt/github"
 )
 
 // ServerStartOptions are the command flags

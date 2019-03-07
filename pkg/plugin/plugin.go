@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/proxy"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

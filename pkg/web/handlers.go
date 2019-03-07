@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/hellofresh/janus/pkg/render"
+	"github.com/kisamoto/janus/pkg/render"
 	log "github.com/sirupsen/logrus"
 )
 

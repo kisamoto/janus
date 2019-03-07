@@ -3,7 +3,7 @@ package oauth2
 import (
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/plugin"
+	"github.com/kisamoto/janus/pkg/plugin"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

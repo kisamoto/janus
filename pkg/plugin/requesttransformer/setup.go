@@ -1,8 +1,8 @@
 package requesttransformer
 
 import (
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/plugin"
+	"github.com/kisamoto/janus/pkg/proxy"
 )
 
 func init() {

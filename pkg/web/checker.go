@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/hellofresh/health-go"
-	"github.com/hellofresh/janus/pkg/api"
+	"github.com/kisamoto/janus/pkg/api"
 	log "github.com/sirupsen/logrus"
 )
 

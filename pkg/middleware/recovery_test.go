@@ -5,9 +5,9 @@ import (
 
 	"net/http"
 
-	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/middleware"
-	"github.com/hellofresh/janus/pkg/test"
+	"github.com/kisamoto/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/middleware"
+	"github.com/kisamoto/janus/pkg/test"
 	"github.com/stretchr/testify/assert"
 )
 

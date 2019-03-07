@@ -3,8 +3,8 @@ package retry
 import (
 	"testing"
 
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/plugin"
+	"github.com/kisamoto/janus/pkg/proxy"
 	"github.com/stretchr/testify/assert"
 )
 

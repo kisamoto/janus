@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/metrics"
-	obs "github.com/hellofresh/janus/pkg/observability"
+	"github.com/kisamoto/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/metrics"
+	obs "github.com/kisamoto/janus/pkg/observability"
 	"github.com/hellofresh/stats-go/bucket"
 	log "github.com/sirupsen/logrus"
 	"go.opencensus.io/stats"

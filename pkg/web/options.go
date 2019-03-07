@@ -1,8 +1,8 @@
 package web
 
 import (
-	"github.com/hellofresh/janus/pkg/api"
-	"github.com/hellofresh/janus/pkg/config"
+	"github.com/kisamoto/janus/pkg/api"
+	"github.com/kisamoto/janus/pkg/config"
 )
 
 // Option represents the available options

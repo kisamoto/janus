@@ -3,7 +3,7 @@ package oauth2
 import (
 	"net/http"
 
-	"github.com/hellofresh/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/errors"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"reflect"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/hellofresh/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/proxy"
 )
 
 // Plugin represents the plugins for an API

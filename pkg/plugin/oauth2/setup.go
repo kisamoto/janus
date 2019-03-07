@@ -6,11 +6,11 @@ import (
 
 	"github.com/asaskevich/govalidator"
 	"github.com/globalsign/mgo"
-	"github.com/hellofresh/janus/pkg/config"
-	"github.com/hellofresh/janus/pkg/jwt"
-	"github.com/hellofresh/janus/pkg/plugin"
-	"github.com/hellofresh/janus/pkg/proxy"
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/config"
+	"github.com/kisamoto/janus/pkg/jwt"
+	"github.com/kisamoto/janus/pkg/plugin"
+	"github.com/kisamoto/janus/pkg/proxy"
+	"github.com/kisamoto/janus/pkg/router"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

@@ -3,7 +3,7 @@ package oauth2
 import (
 	"net/http"
 
-	"github.com/hellofresh/janus/pkg/jwt"
+	"github.com/kisamoto/janus/pkg/jwt"
 	log "github.com/sirupsen/logrus"
 )
 

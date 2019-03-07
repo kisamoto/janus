@@ -12,8 +12,8 @@ import (
 	"github.com/DATA-DOG/godog"
 	"github.com/DATA-DOG/godog/gherkin"
 	jwtgo "github.com/dgrijalva/jwt-go"
-	"github.com/hellofresh/janus/pkg/config"
-	"github.com/hellofresh/janus/pkg/jwt"
+	"github.com/kisamoto/janus/pkg/config"
+	"github.com/kisamoto/janus/pkg/jwt"
 	"github.com/tidwall/gjson"
 )
 

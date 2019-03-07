@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/felixge/httpsnoop"
-	"github.com/hellofresh/janus/pkg/metrics"
+	"github.com/kisamoto/janus/pkg/metrics"
 	"github.com/hellofresh/stats-go/client"
 	"github.com/hellofresh/stats-go/timer"
 	log "github.com/sirupsen/logrus"

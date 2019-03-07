@@ -6,7 +6,7 @@ import (
 	"github.com/Knetic/govaluate"
 	"github.com/afex/hystrix-go/hystrix"
 	"github.com/felixge/httpsnoop"
-	janusErr "github.com/hellofresh/janus/pkg/errors"
+	janusErr "github.com/kisamoto/janus/pkg/errors"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

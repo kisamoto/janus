@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/hellofresh/janus/pkg/errors"
-	"github.com/hellofresh/janus/pkg/render"
-	"github.com/hellofresh/janus/pkg/router"
+	"github.com/kisamoto/janus/pkg/errors"
+	"github.com/kisamoto/janus/pkg/render"
+	"github.com/kisamoto/janus/pkg/router"
 	log "github.com/sirupsen/logrus"
 	"go.opencensus.io/trace"
 )
